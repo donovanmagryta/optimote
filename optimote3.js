@@ -6,7 +6,6 @@ function programpeaks() {
   comment = prompt("Tag the part starting here! For example: SCARY or FUNNY");
   alert("Peak trigger point saved!");
   console.log("trigger point saved at" + peakpoints + "type = " + comment);
-  vidy.play();
 }
 
 
