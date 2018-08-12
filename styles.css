@@ -48,7 +48,7 @@ button {
     padding: 5px 5px;
     text-align: center;
     display: inline-block;
-    font-size: large;
+    font-size: medium;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
@@ -64,7 +64,7 @@ body {
     background-position: center;
     color: black;
     font-family: 'Roboto', monospace;
-    font-size: medium;
+    font-size: x-large;
     margin: 1% 1% 1% 1%;
     max-width: 100%;
  }
