@@ -48,7 +48,8 @@ button {
     padding: 5px 5px;
     text-align: center;
     display: inline-block;
-    font-size: medium;
+    <!--font-size: medium;-->
+    font-size: large;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 4px;
