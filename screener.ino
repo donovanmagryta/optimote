@@ -213,6 +213,18 @@ void loop() {
       direction = 0;
 
     }
+     else if (direction > 3 && myBPM < 60) {  //changed to double ands
+      blip = blip + 8;
+      Keyboard.press(KEY_LEFT_CTRL);
+      Keyboard.press(KEY_LEFT_ALT);
+      Keyboard.print("peak");                       
+      Keyboard.releaseAll();
+      delay(50);
+      Keyboard.press(KEY_LEFT_ALT);
+      Keyboard.print("z");
+      Keyboard.releaseAll();
+      direction = 0; //reset direction count
+    }
     else if (direction > 3 && myBPM > 60) {  //changed to double ands
       blip = blip + 8;
       Keyboard.press(KEY_LEFT_CTRL);
@@ -227,11 +239,11 @@ void loop() {
       direction = 0; //reset direction count
     }
     //added section to alert support person when increasingly high HR for long periods.
-    else if (direction > 10 && myBPM > 80) {  //changed to double ands
+    else if (direction > 15 && myBPM > 80) {  //changed to double ands
       blip = blip + 8;
       Keyboard.press(KEY_LEFT_CTRL);
       Keyboard.press(KEY_LEFT_ALT);
-      Keyboard.print("reassure");                       // trigger screener reassuring media.
+      Keyboard.print("summon");                       // trigger screener reassuring media.
       Keyboard.releaseAll();
       delay(50);
       Keyboard.press(KEY_LEFT_ALT);
