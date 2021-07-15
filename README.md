@@ -17,4 +17,4 @@ invention and improvements were iterated forming a working product.
 
 
 Results: A working prototype was developed to solve the initial problem by adapting
-video to sync with bodily rhythm with calm or thrill boosts when optimal
+video to sync with bodily rhythm with calm or thrill boosts when optimal. Larger scale testing is required for tuning.
