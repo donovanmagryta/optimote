@@ -1,6 +1,6 @@
 # optimote
 Bio-Adaptive Media Player App and Sensor
-
+![prototype](https://github.com/donovanmagryta/optimote/blob/master/optimote.jpg?raw=true)
 
 Situation: According to the CDC, kids now spend 7.5 hours a day on screens. For
 many such as those with autism this can lead to sensory overload where little learning
